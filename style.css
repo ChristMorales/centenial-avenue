@@ -9,7 +9,7 @@ body {
 .top,
 .footer {
     background-color: #1F2937;
-    padding: 0px 150px;
+
 }
 .header {
     display: flex;
@@ -151,14 +151,53 @@ button {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
-    width: 700px;
-    margin: 50px;
+    width: 800px;
+    margin: 50px 50px 0px 50px;
 }
 
 .quote {
-    align-self: baseline;
-    margin: 50px;
+    text-align: end;
+    margin: 0px 50px 50px 50px;
     font-weight: bolder;
-    justify-self: end;
+}
+
+.call {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    background-color: #3882F6;
+    align-content: center;
+    align-self: center;
+    padding: 50px 150px;
+    margin: 100px;
+    border-radius: 16px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-button {
+    padding: 0px 50px 0px 150px;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.call-undertext {
+    color: #E5E7EB;
+}
+
+.footer {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
 
 }
