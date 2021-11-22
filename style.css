@@ -9,11 +9,22 @@ body {
 .top,
 .footer {
     background-color: #1F2937;
+    padding: 0px 150px;
 }
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .logo {
@@ -36,22 +47,41 @@ ul {
 .top {
     display: flex;
     justify-content: center;
+    height: 600px;
 }
 
 .top-text {
     display: flex;
     flex-direction: column;
-    color: white;
     margin: 50px;
+}
+.top-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.top-text p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .top-image {
-    flex: 0 1 0%;
+    flex-grow: 1;
     margin: 50px;
+    width: 700px;
+    height: auto;
 }
-.top-text button {
+
+button {
     background-color: #3882F6; 
     width: 150px;
+    height: 50px;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: #F9FAF8;
 }
 
 .middle {
@@ -79,7 +109,7 @@ ul {
 .middle-card {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
 }
 
 .middle-placeholder {
@@ -112,12 +142,10 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 0px 500px;
 }
 
 .test-content {
-    
-
+    padding: 0px 500px;
 }
 .test-text {
     font-style: italic;
@@ -125,11 +153,12 @@ ul {
     color: #1F2937;
     width: 700px;
     margin: 50px;
-
-
 }
 
 .quote {
-    align-self: flex-end;
+    align-self: baseline;
     margin: 50px;
+    font-weight: bolder;
+    justify-self: end;
+
 }
